@@ -2,45 +2,100 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('fonts/static/WorkSans-Regular.ttf') format('truetype');
+    /* Adicione mais variações conforme necessário (negrito, itálico, etc.) */
+}
+
+@font-face {
+    font-family: 'Work Sans Bold';
+    src: url('fonts/static/WorkSans-Bold.ttf') format('truetype');
+    /* Adicione mais variações conforme necessário (negrito, itálico, etc.) */
 }
 
 body {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	height: 100vh;
+	background-color: hsl(275, 100%, 97%);
 }
 
 main {
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 600px;
-	background-color: #cccccc;
+	max-width: 575px;
+	height: 370px;
+	background-color: white;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+h1, h2 {
+	color: hsl(292, 42%, 20%);
+}
+
+
+h1 {
+	display: block;
+	width: 100%;
+	padding: 25px;
+	font-size: 40px;
+	font-family: 'Work Sans Bold';
+}
+	
+.questionsContainer {
+	width: 100%;
+	background-color: white;
+	padding: 0px 25px 15px;
+	border-radius: 20px;
 }
 
 .question{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-between;	
+	width: 100%;
+	
+	padding: 20px;
+	border-top: 1.5px solid rgb(0, 0, 0, 0.04);
 }
 
 .question button {
 	border: none;
-	background-color: black;
+	background-color: hsl(292, 42%, 14%);
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 }
 
 .texts {
-	max-width: 70%;
+	max-width: 85%;
 }
 
-
-h1 {
-	color: red;
-}
 
 p {
 	display: none;
+	color: hsl(292, 16%, 49%);
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+
+button:hover {
+	background-color: hsl(290, 100%, 50%);
+	cursor: pointer;
+}
+
+h2:hover {
+	color: hsl(290, 100%, 50%);
+	cursor: pointer;
 }
