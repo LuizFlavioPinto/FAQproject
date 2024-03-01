@@ -45,18 +45,20 @@ body {
 main {
 	display: flex;
 	flex-wrap: wrap;
+	position: absolute;
+	top: 70px;
 	max-width: 575px;
-	height: 375px;
 	background-color: white;
 	border-radius: 15px;
 	margin: 20px;
 	box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+	padding: 25px;
 }
 
 header {
 	display: flex;
-	padding: 25px;
 	width: 100%;
+	margin-bottom: 25px;
 }
  
 header img {
@@ -76,8 +78,6 @@ h1 {
 	
 .questionsContainer {
 	width: 100%;
-	background-color: white;
-	padding: 0px 25px 15px;
 	border-radius: 15px;
 }
 
