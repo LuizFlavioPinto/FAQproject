@@ -46,7 +46,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 575px;
-	height: 370px;
+	height: 375px;
 	background-color: white;
 	border-radius: 15px;
 	margin: 20px;
